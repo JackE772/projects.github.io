@@ -62,57 +62,56 @@
     </a>
 
     <p class="eyebrow">PROJECT / ELECTRONICS</p>
-    <h1>Custom PCB Design</h1>
+    <h1>Current project: FSAE car dashboard</h1>
 
     <p>
       A short summary of the project, the problem it solves,
       and what you set out to build.
     </p>
 
-    <p><strong>Tools:</strong> KiCad, LTspice, soldering and testing</p>
+    <p><strong>Tools:</strong> KiCad, LTspice, LTspice</p>
 
     <h2>Overview</h2>
     <p>
-      Explain the purpose of the project, its requirements,
-      and how the finished system is intended to work.
+      The purpose of this project is to design a custom printed circuit board (PCB) for dashboard of the car to provide critical information to the driver using a variety of lights contoled by a STM32 microcontroller.
     </p>
 
     <h2>My Contribution</h2>
     <ul>
       <li>Designed the schematic and selected components.</li>
       <li>Created the PCB layout and routed the signals.</li>
-      <li>Tested the hardware and debugged issues.</li>
+      <li>Currently working on testing and debugging the hardware.</li>
     </ul>
 
-    <h2>Design and Implementation</h2>
-    <p>
-      Explain important circuit decisions, interfaces, component
-      choices, calculations, and trade-offs.
-    </p>
+    <h2>Design Requirements</h2>
+    ,<ul>
+        <li>Display critical information to the driver in a clear and concise manner.</li>
+        <li>Withstand the harsh conditions of a race car environment.</li>
+        <li>Interface with the car's existing electronics and sensors.</li>
+        <li>Waterproof to allow driving in wet conditions.</li>
+        <li>Have switches to control ready to drive state and future components on car.</li>
+    </ul>
 
     <!-- Add your own image when you have one:
     <img src="../images/pcb-layout.png"
          alt="PCB layout designed in KiCad">
     -->
+    <img src="../images/dashboardPCB.png"
+         alt="PCB layout designed in KiCad">
+    <img src="../images/3D_Dashboard.png"
+         alt="3D render of the dashboard PCB">
 
     <h2>Testing and Results</h2>
     <p>
-      Include measured results, test procedures, performance,
-      problems encountered, and improvements you made.
+      Needs to be manufactured to undergo full validation.
     </p>
 
     <h2>What I Learned</h2>
     <p>
-      Describe what you learned and what you would improve
-      in a future revision.
-    </p>
-
-    <p>
-      <a class="text-link"
-         href="https://github.com/YOUR_USERNAME"
-         target="_blank" rel="noreferrer">
-        View source code on GitHub ↗
-      </a>
+      This is the first PCB I have made that needed to be waterproof causing additional design considerations.
+      The other first for me on this project was the use of four a four layer PCB design, in the past price has been
+      to much of a concern to use more than two layers. The four layer design allowed for better routing and signal integrity.
+      This is the first time I have layed out a voltage regulator circuit on a PCB, which was a good learning experience.
     </p>
   </main>
 
