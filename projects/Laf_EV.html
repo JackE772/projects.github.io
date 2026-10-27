@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PCB Design | Jack Ewing</title>
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .project-detail {
+      max-width: 850px;
+      margin: auto;
+      padding: 65px 24px 90px;
+    }
+
+    .project-detail h1 {
+      font-size: clamp(2.6rem, 6vw, 4.5rem);
+      margin-bottom: 20px;
+    }
+
+    .project-detail h2 {
+      font-size: 1.8rem;
+      margin: 45px 0 15px;
+    }
+
+    .project-detail p,
+    .project-detail li {
+      color: #65716b;
+      line-height: 1.9;
+    }
+
+    .project-detail img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      margin: 25px 0;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 35px;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="../index.html">JE<span>.</span></a>
+      <div class="nav-links">
+        <a href="../index.html#projects">Projects</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="project-detail">
+    <a class="back-link" href="../index.html#projects">
+      ← Back to projects
+    </a>
+
+    <p class="eyebrow">PROJECT / ELECTRONICS</p>
+    <h1>FPGA Arcade system</h1>
+
+    <p>
+      This project is an FPGA-based arcade system that allows users to play classic arcade games on a custom-built hardware platform. The system is designed to provide a retro gaming experience with modern enhancements, including improved graphics and sound capabilities.
+    </p>
+
+    <p><strong>Tools:</strong>Verilog, Vivado, VGA</p>
+
+    <h2>Overview</h2>
+    <p>
+      This progect involved designing and implementing several classic arcade games on an FPGA platform.
+       The system includes a VGA output for video display and user input through buttons.
+       The project required knowledge of digital logic design, FPGA programming, and hardware interfacing.
+    </p>
+
+    <h2>My Contribution</h2>
+    <ul>
+      <li>Desgined top level architecture</li>
+      <li>Created the FPGA design and implemented the logic.</li>
+      <li>Debugged the design and resolved issues.</li>
+    </ul>
+
+    <h2>Design and Implementation</h2>
+    <p>
+      Explain important circuit decisions, interfaces, component
+      choices, calculations, and trade-offs.
+    </p>
+
+    <!-- Add your own image when you have one:
+    <img src="../images/pcb-layout.png"
+         alt="PCB layout designed in KiCad">
+    -->
+
+    <h2>Testing and Results</h2>
+    <p>
+      The design was tested on the FPGA development board in two ways.
+      The first was through wavform simulations in vivado to verify the logic and timing of the design.
+      The second was through testing on the actual hardware to ensure that the system functioned as expected and that the games were playable.
+    </p>
+    <img src="../images/image8.png"
+         alt="FPGA arcade system with VGA output and buttons for user input">
+    <img src="../images/image7.png"
+         alt="FPGA arcade system with VGA output and buttons for user input">
+
+    <h2>What I Learned</h2>
+    <p>
+      Describe what you learned and what you would improve
+      in a future revision.
+    </p>
+
+    <p>
+      <a class="text-link"
+         href="https://github.com/YOUR_USERNAME"
+         target="_blank" rel="noreferrer">
+        View source code on GitHub ↗
+      </a>
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="../index.html">JE<span>.</span></a>
+      <p>Engineering Portfolio</p>
+      <a href="#">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
