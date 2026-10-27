@@ -50,7 +50,7 @@ h1 span { color: #718d37; }
 .circuit .chip-inner { fill: #1b2a23; stroke: #7f9e53; stroke-width: 1.5; }
 .circuit .chip-mark { stroke: #c9f36a; stroke-width: 3; stroke-linecap: round; }
 .circuit path:last-of-type { stroke: #c9f36a; stroke-width: 2; }
-.focus_img {position: relative; display: grid; max-width: 220px; height: auto; max-height: 220px; scale: 0.1}
+.focus_img {position: relative; display: grid; place-items: center; max-width: 220px; height: auto; max-height: 220px; scale: 0.1}
 .art-label { position: absolute; z-index: 2; color: #d4e0cc; font-size: .62rem; letter-spacing: .12em; font-weight: 700; }
 .label-top { top: 25px; left: 25px; }
 .label-bottom { bottom: 24px; left: 25px; }
