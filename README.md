@@ -1,2 +1,2 @@
 # projects.github.io
-Jack Ewing project portfolio
+Made by: Jack Ewing
