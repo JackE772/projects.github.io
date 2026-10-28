@@ -62,10 +62,21 @@
     </a>
 
     <p class="eyebrow">PROJECT / ELECTRONICS</p>
-    <h1>Lafayette EV</h1>
+    <h1>Telemetry System</h1>
 
     <p>
         The goal of this project was to build a self contained module that could be added or removed from the car as needed and track position, acceleration, and roll of the chassis.
+    </p>
+    <h1>Project Overview</h1>
+    <p>
+        The system was controled by a ESP32 microcontroller. This choice was made because it allowed us to use bluetooth low energy (BLE) to communicate with the car live at minimal cost.
+        The sensors used were a BNO055 IMU (Inertial Measurement Unit) to track acceleration and roll of the chassis. We also used a GPS module to track position with meter-level accuracy.
+        The data from these sensors was processed on the ESP32 and transmitted via BLE to a mobile application for real-time monitoring and analysis and saved localy to a microSD card for later processing.
+    </p>
+    <h1>Hardware Overview</h1>
+    <p>
+        The hardware consisted of an ESP32 microcontroller, a BNO055 IMU, a GPS module, and a microSD card for local data storage. becuase the device had to be mounted internaly and interfernace was 
+        a consern with the gps module. the pcb design was setup as a very simple arduino hat. most of this project was focused on programing.
     </p>
 
   </main>
