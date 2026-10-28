@@ -65,7 +65,7 @@ h2 { margin-bottom: 0; font-size: clamp(2.2rem, 4vw, 3.4rem); line-height: 1.08;
 .project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .project-card { overflow: hidden; border: 1px solid #e0e5de; border-radius: var(--radius); background: var(--surface); transition: transform .22s, box-shadow .22s; }
 .project-card:hover { transform: translateY(-5px); box-shadow: 0 16px 35px rgba(30,48,37,.08); }
-.project-visual { position: relative; display: grid; place-items: center; min-height: 220px; overflow: hidden; background: #1c2d24; max-height: 100%; max-width: 100%;}
+.project-visual { position: relative; display: grid; place-items: center; min-height: 220px; overflow: hidden; background: #1c2d24; max-height: 220px; max-width: 400px;}
 .visual-number, .visual-caption { position: absolute; z-index: 2; color: #b5c6b1; font-size: .6rem; letter-spacing: .12em; font-weight: 750; }
 .visual-number { top: 17px; left: 18px; }
 .visual-caption { bottom: 16px; left: 18px; }
@@ -109,7 +109,7 @@ h2 { margin-bottom: 0; font-size: clamp(2.2rem, 4vw, 3.4rem); line-height: 1.08;
 .contact-actions { display: flex; min-width: 190px; flex-direction: column; align-items: stretch; gap: 10px; }.contact-actions .button-secondary { border-color: #506157; }.contact-actions .text-link { justify-content: center; margin-top: 7px; color: #dce5d9; }
 .site-footer { padding-block: 25px; border-top: 1px solid var(--line); }.footer-inner { display: flex; align-items: center; justify-content: space-between; gap: 20px; color: #7c877f; font-size: .77rem; }.footer-inner p { margin: 0; }.footer-inner .brand { color: var(--ink); font-size: 1.15rem; }.footer-inner a { transition: color .2s; }
 .zoom-in {scale: 2;}
-.in-text-images { max-width: 100%; height: auto; border-radius: 12px; border: 1px solid #00000055;}
+.in-text-images { max-width: 100%; height: auto; border-radius: 12px; border: 1px solid #10172155;}
 :focus-visible { outline: 3px solid #8bad42; outline-offset: 4px; border-radius: 4px; }
 @media (max-width: 900px) {
   .hero { gap: 28px; padding-block: 65px 75px; }.hero-art { min-height: 350px; }
