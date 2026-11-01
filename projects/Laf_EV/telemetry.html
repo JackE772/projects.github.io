@@ -62,23 +62,23 @@
     </a>
 
     <p class="eyebrow">PROJECT / ELECTRONICS</p>
-    <h1>Telemetry System</h1>
+    <h3>Telemetry System</h3>
 
     <p>
         The goal of this project was to build a self contained module that could be added or removed from the car as needed and track position, acceleration, and roll of the chassis.
     </p>
-    <h1>Project Overview</h1>
+    <h3>Project Overview</h3>
     <p>
         The system was controled by a ESP32 microcontroller. This choice was made because it allowed us to use bluetooth low energy (BLE) to communicate with the car live at minimal cost.
         The sensors used were a BNO055 IMU (Inertial Measurement Unit) to track acceleration and roll of the chassis. We also used a GPS module to track position with meter-level accuracy.
         The data from these sensors was processed on the ESP32 and transmitted via BLE to a mobile application for real-time monitoring and analysis and saved localy to a microSD card for later processing.
     </p>
-    <h1>Hardware Overview</h1>
+    <h3>Hardware Overview</h3>
     <p>
         The hardware consisted of an ESP32 microcontroller, a BNO055 IMU, a GPS module, and a microSD card for local data storage. Because the device had to be mounted internally and interference was 
         a concern with the GPS module, the PCB design was set up as a very simple Arduino hat. Most of this project was focused on programming.
     </p>
-    <h1>Software Overview</h1>
+    <h3>Software Overview</h3>
     <p>
         The software was designed by me and Callum Lindars. The main part was a GUI (Graphical User Interface) that allowed users to view real-time data from the sensors and analyze it as well as allowing the users to playback previous recoreded sections.
     </p>
@@ -86,7 +86,7 @@
         <source src="../../images/videos/Screen Recording 2026-10-27 192145.mp4" type="video/mp4">
             Your browser does not support the video tag.
     </video>
-    <h1>Lessons Learned</h1>
+    <h3>Lessons Learned</h3>
     <p>
         This was my first time working with BLE so learning how to properly implement it and troubleshoot issues was a significant part of the project. In additon I had previously had very little experiance 
         with I2C communication, which was necessary for interfacing with the BNO055 IMU.
